@@ -1,0 +1,144 @@
+
+header .nav_bar > li
+{
+    padding-left: 20px; 
+}
+header .r_lope > span,header .r_phone > span
+{
+    margin-right: 4px;
+}
+header .i_lang
+{
+    margin-left: 4px;
+}
+.sam_menu > li > a
+{
+    text-align: left;
+}
+.sam_menu > li > a > .i_lang
+{
+    margin-right: 4px;
+    margin-left: 0;
+}
+header .recomnd > li:not(:last-child)
+{
+    margin-left: 21px;
+}
+.sam_menu
+{
+    right: 0 !important;
+}
+.sam_menu:before
+{
+    right: 7px;
+}
+.main_slider .swiper-button-next:after
+{
+    content: '\e875';
+}
+.main_slider .swiper-button-prev:after
+{
+    content: '\e876';
+}
+.sit_dsc,.latnew_cont .latnew_name,footer
+{
+    text-align: right;
+}
+#about_us .b_desc
+{
+    padding-left: 20px;
+}
+.latnew_img .latnew_date
+{
+    right: 10px;
+}
+.ffeat_detail
+{
+    margin-right: 20px;
+}
+.ffsoc_ul > li
+{
+    margin-left: 8px;
+}
+.ff_maillist .fm_check
+{
+    left: 25px;
+}
+.ffmg_grop > li:not(:last-child)
+{
+    margin-left: 19px;
+}
+
+
+
+
+
+
+
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+    .sam_menu
+    {
+        right: -10px !important;
+    }
+    .sam_menu:before
+    {
+        right: 17px;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+    
+}
+
+@media (max-width:991px)	
+{
+    .ffeat_detail
+    {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:767px)	
+{
+    header .recomnd > li:not(:last-child)
+    {
+        margin-left: 0px;
+    }
+    .closebtn
+    {
+        left: 20px;
+    }
+    header .nav_bar
+    {
+        text-align: right;
+       
+    }
+    .main_nav
+    {
+        right: 0;
+    }
+    #about_us .b_desc
+    {
+        padding-left: 0;
+    }
+    .ffdivide_nk
+    {
+        text-align: right;
+    }
+    .fast_links .fftitle.fsm_title
+    {
+        text-align: right;
+    }
+    .fast_links .fftitle.fsm_title:after
+    {
+        left: 35px;
+    }
+    footer 
+    {
+        text-align: center;
+    }
+}
